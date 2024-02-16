@@ -6,5 +6,5 @@ Repositorio del curso Laboratorio de Reducción de Datos del primer semestre 202
 * [NOTAS](Notas)
 * [PRÁCTICAS](Prácticas)
 * [TAREAS](Tareas)
-    * [T1](T1)
-    * [T2](T2)
+    * [T1](Tareas/T1)
+    * [T2](Tareas/T2)
