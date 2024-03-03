@@ -8,3 +8,4 @@ Repositorio del curso Laboratorio de Reducción de Datos del primer semestre 202
 * [TAREAS](Tareas)
     * [T1](Tareas/T1)
     * [T2](Tareas/T2)
+    * [Parcial 1](Tareas/Parcial_1)
