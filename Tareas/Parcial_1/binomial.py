@@ -11,7 +11,7 @@ st.write('Esta página permite calcular y graficar probabilidades acumuladas de 
 n = st.number_input('Ingrese un valor para n', min_value=1, max_value=100, step=1, help='Ingrese un número del 1 al 100 para definir el número de tiros de la distribución binomial')
 st.write('n = ', n)
 # number_input de streamlit para ingresar valor str de p entre 0 y 1
-p = st.number_input('Ingrese un valor para p', min_value=0.00, max_value=1.00, step=0.01, help='Ingrese un número del 0 al 1 para definir la probabilidad del caso deseado')
+p = st.number_input('Ingrese un valor para p', value=0.50, min_value=0.00, max_value=1.00, step=0.01, help='Ingrese un número del 0 al 1 para definir la probabilidad del caso deseado')
 st.write('p = ', p)
 # Valor fijo de q como 1-p
 q = 1-p
