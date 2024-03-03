@@ -1,5 +1,4 @@
 # importar librerias
-from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -41,16 +40,13 @@ std = math.sqrt(n*p*q)
 calculos = {'Promedio': [prom], 'Varianza': [var], 'Desviación estándar': [std]}
 calculos_pd = pd.DataFrame(calculos, index=['Datos'])
 
-# Se crea la gráfica de barras y la curva para la distribución binomial
-# binomial_plot, axis = plt.subplots()
-# axis.bar(data_table['x'],data_table['Pb'], color='C2')
-# axis.plot(data_table['x'],data_table['Pb'], color='C3')
-binomial_plot = px.line(x=data_table['x'], y=data_table['Pb'])
+# Se crea la curva para la distribución binomial y se le da un formato
+binomial_plot = px.line(data_table, x='x', y='Pb', title="Gráfica de una distribución binomial", line_shape='spline')
 binomial_plot.update_traces(line_color='#B21914', line_width=2.5)
-binomial_plot.add_bar(x=data_table['x'], y=data_table['Pb'], marker_color='#4C9305')
+# Se agrega una gráfica de barras y se le da formato
+binomial_plot.add_bar(x=data_table['x'], y=data_table['Pb'], marker_color='#1e6905', name='binomial')
 
-# Se despliega la gráfica en streamlit
+# Se despliega la gráfica y los cálculos en streamlit
 st.title('Gráficos binomiales')
-#st.pyplot(binomial_plot)
 st.plotly_chart(binomial_plot)
 st.write(calculos_pd)
