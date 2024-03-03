@@ -6,6 +6,7 @@ import math
 import streamlit as st
 
 st.title('Distribución binomial')
+st.write('Esta página permite calcular y graficar probabilidades acumuladas de una distribución binomial. Para eso usted debe ingresar un número de tiros **n** y la probabilidad de ocurrencia **p** en los siguientes widgets.')
 # number_input de streamlit para ingresar valor int de n entre 1 y 100
 n = st.number_input('Ingrese un valor para n', min_value=1, max_value=100, step=1, help='Ingrese un número del 1 al 100 para definir el número de tiros de la distribución binomial')
 st.write('n = ', n)
