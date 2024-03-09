@@ -21,12 +21,14 @@ def fit_function(x,n,p):
     qnx = (1-p)**(n-x)
     return combi*px*qnx
 
+number = st.slider('Seleccione número de datos', min_value=0, max_value=100, step=1)
+
 data = pd.read_csv('Binomial-fichas.csv')
 print(data)
 df = pd.DataFrame(data)
 value_range = np.arange(11)
 value_range_int = value_range.astype(int)
-group = df['GM'].value_counts().reindex(value_range, fill_value=0).reset_index()
+group = df['GM'].iloc[:number].value_counts().reindex(value_range, fill_value=0).reset_index()
 print('pandas')
 print(group)
 group_2 = pd.Series.to_numpy(df['GM'].value_counts().reindex(value_range, fill_value=0))
@@ -47,7 +49,7 @@ ax.bar(value_range, group_2)
 ax.plot(value_range, fit_function(value_range, *res)*105, color='C3')
 
 
-temp = df['GM']
+temp = df['GM'].iloc[:number]
 data_sort = temp.sort_values()
 normfit = stats.norm.fit(temp)
 print(normfit)
