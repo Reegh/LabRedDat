@@ -33,11 +33,6 @@ print('pandas')
 print(group)
 group_2 = pd.Series.to_numpy(df['GM'].iloc[:number].value_counts().reindex(value_range, fill_value=0))
 print(group_2)
-binomial_2 = px.bar(x=group['GM'], y=group['count'])
-binomial = px.scatter(x=group['GM'], y=group['count'], trendline="rolling", trendline_options=dict(window=1, win_type='gaussian', function_args=dict(std=2)))
-binomial.add_bar(x=group['GM'], y=group['count'], marker_color='#1e6905', name='binomial')
-st.plotly_chart(binomial_2)
-st.plotly_chart(binomial)
 
 p0=[10,1/2]
 res, cov = curve_fit(fit_function, value_range, group_2, p0=p0)
@@ -48,6 +43,12 @@ fig, ax = plt.subplots()
 ax.bar(value_range, group_2)
 ax.plot(value_range, fit_function(value_range, *res)*(number+5), color='C3')
 
+binomial_2 = px.bar(x=group['GM'], y=group['count'])
+# binomial = px.scatter(x=group['GM'], y=group['count'], trendline="rolling", trendline_options=dict(window=1, win_type='gaussian', function_args=dict(std=2)))
+binomial = px.line(x=value_range, y=fit_function(value_range, *res)*(number+5), line_shape='spline')
+binomial.add_bar(x=group['GM'], y=group['count'], marker_color='#1e6905', name='binomial')
+# st.plotly_chart(binomial_2)
+st.plotly_chart(binomial)
 
 temp = df['GM'].iloc[:number]
 # data_sort = temp.sort_values()
