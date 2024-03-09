@@ -55,10 +55,11 @@ print(normfit)
 plt.hist(temp)
 plt.plot(data_sort, stats.norm.pdf(data_sort, *normfit)*98)
 plt.show()
+st.pyplot(plt.show())
 
-# dist = stats.norm
-# bounds = [(0, 25), (1, 25)]
-# res_2 = stats.fit(dist, temp, bounds)
-# print(res_2)
-# res_2.plot()
+dist = stats.norm
+bounds = [(0, 10), (1, 10)]
+res_2 = stats.fit(dist, temp, bounds)
+print(res_2)
+res_2.plot()
 st.pyplot(plt.show())
