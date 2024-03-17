@@ -62,6 +62,10 @@ binomial.update_traces(line_color='#B21914', line_width=2.5)
 binomial.add_bar(x=group['GM'], y=group['count'], marker_color='#1e6905', name='binomial')
 # Mostrar gráfica de plotly
 st.plotly_chart(binomial)
+media = np.sum(group_2*value_range)/number
+st.write(media)
+desv = math.sqrt(np.sum(group_2*(((value_range)-media)**2))/(number-1))
+st.write(desv)
 st.write(f'El valor de n es: {res[0]}')
 st.write(f'El valor de p es: {res[1]}')
 st.write(group)
