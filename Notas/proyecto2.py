@@ -11,9 +11,9 @@ df = pd.DataFrame(data)
 
 # Definir fórmula del fit
 def fit(x):
-    A=298.681
-    u=72.8882
-    r=8.41778
+    A=298.165
+    u=73.5442
+    r=9.04991
     x = np.array(x, dtype=int)
     return A*math.exp(-((x-u)/r)**2/2)
 fit = np.vectorize(fit)

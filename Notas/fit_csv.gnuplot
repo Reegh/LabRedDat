@@ -4,7 +4,7 @@
 
 set datafile separator ','
 
-d=0
+d=1
 
 f(x) = A*exp(-((x-u)/r)**2/2)
 
