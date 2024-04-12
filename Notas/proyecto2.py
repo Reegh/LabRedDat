@@ -29,7 +29,7 @@ on = st.toggle('Ver datos completos')
 if on:
     plot_fit.add_bar(x=df.index, y=df['resultados'])
 else:
-    plot_fit.add_bar(x=df.index, y=df['resultados'].iloc[:80])
+    plot_fit.add_bar(x=df.index, y=df['resultados'].iloc[:81])
 st.plotly_chart(plot_fit)
 
 def fit_2(x):
