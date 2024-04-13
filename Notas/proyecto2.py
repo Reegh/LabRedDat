@@ -23,13 +23,14 @@ print(value_range)
 
 plot_fit = px.line(x=value_range, y=fit(value_range))
 plot_fit.update_traces(line_color='#B21914', line_width=2.5)
+plot_fit.update_layout({'plot_bgcolor': 'rgba(0, 0, 0, 0)','paper_bgcolor': 'rgba(0, 0, 0, 0)',})
 
 on = st.toggle('Ver datos completos')
 
 if on:
-    plot_fit.add_bar(x=df.index, y=df['resultados'])
+    plot_fit.add_bar(x=df.index, y=df['resultados'], marker_color='#291a4d')
 else:
-    plot_fit.add_bar(x=df.index, y=df['resultados'].iloc[:81])
+    plot_fit.add_bar(x=df.index, y=df['resultados'].iloc[:81], marker_color='#291a4d')
 st.plotly_chart(plot_fit)
 
 def fit_2(x):
@@ -44,11 +45,12 @@ value_range_2 = np.arange(185)
 
 plot_fit_2 = px.line(x=value_range_2, y=fit_2(value_range_2))
 plot_fit_2.update_traces(line_color='#B21914', line_width=2.5)
+plot_fit_2.update_layout({'plot_bgcolor': 'rgba(0, 0, 0, 0)','paper_bgcolor': 'rgba(0, 0, 0, 0)',})
 
 don = st.toggle('Ver fit')
 
 if don:
-    plot_fit_2.add_bar(x=df.index, y=df['resultados'])
+    plot_fit_2.add_bar(x=df.index, y=df['resultados'], marker_color='#291a4d')
 else:
-    plot_fit_2.add_bar(x=df.index, y=df['resultados'].iloc[:69])
+    plot_fit_2.add_bar(x=df.index, y=df['resultados'].iloc[:69], marker_color='#291a4d')
 st.plotly_chart(plot_fit_2)
