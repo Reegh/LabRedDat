@@ -7,12 +7,12 @@ A=400
 u=200
 r=100
 
-fit f(x) 'Cesio.csv' using 2:3 via A,u,r
+fit f(x) 'Cesio.csv' using 1:2 via A,u,r
 
 set yrange [0:10]
 set xrange [300:500]
 
-plot 'Cesio.csv' using 2:3, f(x)
+plot 'Cesio.csv' using 1:2, f(x)
 
 # # Fit aire
 # f(x) = A*exp(-((x-u)/r)**2/2)
