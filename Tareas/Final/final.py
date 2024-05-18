@@ -33,15 +33,17 @@ for i in range(976):
 new_latitud = pd.Series(latitud)
 new_longitud = pd.Series(longitud)
 
+print(df)
+
 # Plot data of fireballs with plotly express
-fig = px.scatter_geo(df, lon=new_longitud, lat=new_latitud, color='Impact Energy (kt)',
-                     hover_name='Peak Brightness Date/Time (UT)', size='Impact Energy (kt)', size_max=40,
-                     projection="natural earth", color_continuous_scale=["skyblue", "blue", "yellow", "red"], range_color=(0,20))
-fig.update_traces(marker_sizemin=3)
+fig = px.scatter_geo(df, lon=new_longitud, lat=new_latitud, color=df['Impact Energy log(kt)'],
+                     hover_name='Peak Brightness Date/Time (UT)', size=df['Impact Energy log(kt)']+3, size_max=15,
+                     projection="natural earth", color_continuous_scale=["skyblue", "blue", "yellow", "red"])
+fig.update_traces(marker_sizemin=0.1)
 fig.update_layout(font_color="black", autosize=False, width=900, height=500)
 st.plotly_chart(fig)
 fig.write_image("fireballs.png")
 fig.write_image("fireballs.svg")
 
-fig2 = px.histogram(df, x='Impact Energy (kt)')
+fig2 = px.histogram(df, x='Impact Energy log(kt)')
 st.plotly_chart(fig2)
