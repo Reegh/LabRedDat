@@ -1,12 +1,18 @@
 #set datafile separator ','
+set term png
+set output "fit.png"
 
-f(x) = a*exp(-(((x)-u)/r)**2/2)
+f(x) = a*exp(-((x-u)/r)**2/2)
+# poisson(x) = exp(-m) * m**(x-1) / gamma(x)
 
-a=30
-u=3
-r=3
+a=0.1
+u=1
+r=1
 
-set xrange [-6:6]
+m=5
+
+# set xrange [-6:6]
+# set yrange [0:136]
 
 binwidth=0.2
 bin(x,width)=width*floor(x/width)
@@ -18,4 +24,5 @@ unset table
 
 #fit f(x) 'fireballs.dat' using (bin($1,binwidth)):(1.0) via A,u,r
 fit f(x) 'hist.txt' via a,u,r
+# fit poisson(x) 'hist.txt' via m
 plot 'fireballs.dat' using (bin($1,binwidth)):(1.0) smooth freq with boxes, f(x)

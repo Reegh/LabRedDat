@@ -1,13 +1,3 @@
-#Day Of Year:,126
-#Event Date:,05/05/2024 20:11:04
-#Original NetCDF file:,GLM-L2-LCFAG16s20241262011000e20241262011200c20241262011220.nc
-#Platform:,G16
-#Satellite (lat/lon/height):,0.0 / -75.199997 / 35786.02km
-#Event Info:,
-#Description:,
-#Date Archived:,05/08/2024 00:26:12
-#URL:,https://neo-bolide.ndc.nasa.gov
- 
 time (ms),longitude,latitude,energy (joules)
 Sun May 05 2024 13:11:04 GMT-0700 (Pacific Daylight Time),-112.79400634765625,-7.164603233337402,2.1849219109589414e-15
 Sun May 05 2024 13:11:04 GMT-0700 (Pacific Daylight Time),-112.79431915283203,-7.164608001708984,2.8848379407693785e-15
