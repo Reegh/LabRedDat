@@ -172,6 +172,76 @@
       \field{note}{[Accessed 19-05-2024]}
       \field{title}{{S}entry: {E}arth {I}mpact {M}onitoring --- cneos.jpl.nasa.gov}
     \endentry
+    \entry{rusia2013}{article}{}
+      \name{author}{7}{}{%
+        {{hash=0410ba28495ed8610d933f41a79db8a7}{%
+           family={Le\bibnamedelima Pichon},
+           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced8ffd392c3de303e3255797d4d6cfb}{%
+           family={Ceranna},
+           familyi={C\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=04749fe13e68a0b965348f804e4d5653}{%
+           family={Pilger},
+           familyi={P\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c3f00d604efb007e7e84b6544ee0d584}{%
+           family={Mialle},
+           familyi={M\bibinitperiod},
+           given={Pierrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aae587aa61831b0b87485957445e5812}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=91d028080361f43305e4b7b4ff0a5a65}{%
+           family={Herry},
+           familyi={H\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b9867cf1ad0c7b6c9fe5cfa3a3886a39}{%
+           family={Brachet},
+           familyi={B\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{04589e5ad406659d370c74d3c1e66202}
+      \strng{fullhash}{c5a330d1be29d4df0d26728ad6240df4}
+      \strng{bibnamehash}{c5a330d1be29d4df0d26728ad6240df4}
+      \strng{authorbibnamehash}{c5a330d1be29d4df0d26728ad6240df4}
+      \strng{authornamehash}{04589e5ad406659d370c74d3c1e66202}
+      \strng{authorfullhash}{c5a330d1be29d4df0d26728ad6240df4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{AbstractOn 15 February 2013, a large Earth-impacting fireball disintegrated over the Ural Mountains. This extraordinary event is, together with the 1908 Tunguska fireball, among the most energetic events ever instrumentally recorded. It generated infrasound returns, after circling the globe, at distances up to ~85,000 km, and was detected at 20 infrasonic stations of the global International Monitoring System (IMS). For the first time since the establishment of the IMS infrasound network, multiple arrivals involving waves that traveled twice round the globe have been clearly identified. A preliminary estimate of the explosive energy using empirical period-yield scaling relations gives a value of 460 kt of TNT equivalent. In the context of the future verification of the Comprehensive Nuclear-Test-Ban Treaty, this event provides a prominent milestone for studying in detail infrasound propagation around the globe for almost 3 days as well as for calibrating the performance of the IMS network.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{14}
+      \field{title}{The 2013 Russian fireball largest ever detected by CTBTO infrasound sensors}
+      \field{volume}{40}
+      \field{year}{2013}
+      \field{pages}{3732\bibrangedash 3737}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1002/grl.50619
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/grl.50619
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/grl.50619
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/grl.50619
+      \endverb
+      \keyw{meteorite,infrasound,IMS,NEO,impact hazard}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

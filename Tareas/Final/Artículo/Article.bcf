@@ -2357,11 +2357,13 @@
     <bcf:citekey order="3">rukmini2016statistical</bcf:citekey>
     <bcf:citekey order="4">zhou2024martians</bcf:citekey>
     <bcf:citekey order="5">nasaSentryEarth</bcf:citekey>
-    <bcf:citekey order="6">nasaBasics</bcf:citekey>
-    <bcf:citekey order="7">nasaFireballs</bcf:citekey>
-    <bcf:citekey order="8">rukmini2016statistical</bcf:citekey>
-    <bcf:citekey order="9">zhou2024martians</bcf:citekey>
-    <bcf:citekey order="10">nasaSentryEarth</bcf:citekey>
+    <bcf:citekey order="6">rusia2013</bcf:citekey>
+    <bcf:citekey order="7">nasaBasics</bcf:citekey>
+    <bcf:citekey order="8">nasaFireballs</bcf:citekey>
+    <bcf:citekey order="9">rukmini2016statistical</bcf:citekey>
+    <bcf:citekey order="10">zhou2024martians</bcf:citekey>
+    <bcf:citekey order="11">nasaSentryEarth</bcf:citekey>
+    <bcf:citekey order="12">rusia2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

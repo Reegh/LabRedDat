@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  19 MAY 2024 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  19 MAY 2024 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -723,30 +723,30 @@ File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 <fireballs.png, id=26, 903.375pt x 501.875pt>
 File: fireballs.png Graphic file (type png)
 <use fireballs.png>
-Package pdftex.def Info: fireballs.png  used on input line 124.
+Package pdftex.def Info: fireballs.png  used on input line 130.
 (pdftex.def)             Requested size: 483.69687pt x 268.72638pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<fit.png, id=43, 481.8pt x 361.35pt>
+<fit.png, id=46, 481.8pt x 361.35pt>
 File: fit.png Graphic file (type png)
 <use fit.png>
-Package pdftex.def Info: fit.png  used on input line 144.
+Package pdftex.def Info: fit.png  used on input line 147.
 (pdftex.def)             Requested size: 231.84843pt x 173.8816pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<correlation.png, id=44, 481.8pt x 361.35pt>
+<correlation.png, id=47, 481.8pt x 361.35pt>
 File: correlation.png Graphic file (type png)
 <use correlation.png>
-Package pdftex.def Info: correlation.png  used on input line 150.
+Package pdftex.def Info: correlation.png  used on input line 153.
 (pdftex.def)             Requested size: 231.84843pt x 173.8816pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2 <./fireballs.png> <./fit.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 164.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 167.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -755,7 +755,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1303) in paragraph at lines 165--165
+Underfull \hbox (badness 1303) in paragraph at lines 168--168
 []\T1/pplx/m/n/10 (+20) CNEOS, \T1/pplx/m/it/10 (+20) Sen-try: Earth Im-pact Mon-i-tor-ing ---
  []
 
@@ -763,24 +763,24 @@ Underfull \hbox (badness 1303) in paragraph at lines 165--165
 
  <./correlation.png>] (./Article.aux)
 Package rerunfilecheck Info: File `Article.out' has not changed.
-(rerunfilecheck)             Checksum: 30DDA38D8B8B4D02310B98D3FC0A7792;407.
+(rerunfilecheck)             Checksum: BCAABD87E0699B26FE255A5EC73C6B84;412.
 Package logreq Info: Writing requests to 'Article.run.xml'.
 \openout1 = `Article.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21326 strings out of 478287
- 376168 string characters out of 5849289
- 1118601 words of memory out of 5000000
- 38858 multiletter control sequences out of 15000+600000
- 543331 words of font info for 339 fonts, out of 8000000 for 9000
+ 21354 strings out of 478287
+ 376575 string characters out of 5849289
+ 1119649 words of memory out of 5000000
+ 38869 multiletter control sequences out of 15000+600000
+ 544177 words of font info for 351 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,82p,1064b,1296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,13n,82p,1167b,1296s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Article.pdf (3 pages, 275312 bytes).
+Output written on Article.pdf (3 pages, 278220 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
  121392 words of extra memory for PDF output out of 128383 (max. 10000000)
 

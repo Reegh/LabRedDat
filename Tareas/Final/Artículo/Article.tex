@@ -81,25 +81,22 @@ mostly of water ice with embedded dust particles, comets originally formed in th
 system while most of the rocky asteroids formed in the warmer inner solar system between the orbits of
 Mars and Jupiter.  \supercite{nasaBasics}
 
-A meteoroid is generally defined as an asteroid or comet fragment that orbits the Sun and has an
-approximate size between ten microns and a meter or so. Meteors, or "shooting stars", are the visible
-paths of meteoroids that have entered the Earth’s atmosphere at high velocities. A fireball is an
-unusually bright meteor that reaches a visual magnitude of $-3$ or brighter when seen at the observer’s
-zenith. \supercite{nasaFireballs}
+A meteoroid is generally defined as an asteroid or comet fragment that orbits the Sun. Meteors, or
+"shooting stars", are the visible paths of meteoroids that have entered the Earth’s atmosphere at high
+velocities. A fireball is an unusually bright meteor that reaches a visual magnitude of $-3$ or
+brighter when seen at the observer’s zenith. \supercite{nasaFireballs}
 
 Near-Earth Asteroids (NEAs) are small bodies of the Solar System with perihelion distance $q$
 $1.3\:AU$ (Astronomical Units) and aphelion distances $Q$ $0.983\:AU$, whose orbits approach or
-intersect Earth orbit. The NEAs are classified into three main classes: Apollo, Amor and Aten on the
-basis of derived orbital parameters. \supercite{rukmini2016statistical}
-
-Potentially Hazardous Asteroids (PHAs) are a special subset of NEAs that, according to The Center for
-Near-Earth Object Studies (CNEOS), have an absolute magnitude ($H$) of $22.0$ or less that can come
-close to the Earth and are large enough to cause significant damage in the event of an impact. \supercite{zhou2024martians}
+intersect Earth orbit. \supercite{rukmini2016statistical} Potentially Hazardous Asteroids (PHAs) are a
+special subset of NEAs that, according to The Center for Near-Earth Object Studies (CNEOS), have an
+absolute magnitude ($H$) of $22.0$ or less that can come close to the Earth and are large enough to
+cause significant damage in the event of an impact. \supercite{zhou2024martians}
 
 Sentry is a highly automated collision monitoring system that continually scans the most current
 asteroid catalog for possibilities of future impact with Earth over the next 100 years. Whenever a
-potential impact is detected it will be analyzed and the results immediately published here, except
-in unusual cases where we seek independent confirmation. \supercite{nasaSentryEarth}
+potential impact is detected it will be analyzed and the results immediately published, except in
+unusual cases. \supercite{nasaSentryEarth}
 
 %------------------------------------------------
 
@@ -120,12 +117,6 @@ was decided to use the logarithm of the data and then a histogram was made with 
 impact energy ($log(kt)$) in intervals of $0.2$. With these data, some distribution fit were applied
 to confirm wich one was more accurate.
 
-\begin{figure*} % Two column figure (notice the starred environment)
-	\includegraphics[width=\linewidth]{fireballs.png}
-	\caption{Fireballs reported by US government sensors from April 15, 1988, to May 15, 2024. The size and color of each circle were determined by the logarithm of the impact energy (kt), and the location was determined by the altitude and longitude. All this data was obtained from the database published by NASA’s CNEOS at JPL.}
-	\label{fig:fireballs}
-\end{figure*}
-
 At first, the covariance matrix was used to find the linear bond between NEOs' absolute magnitude ($H$)
 and impact probability, but due to the correlation not being linear, it was discarded. Then proceeded
 to use Pearson's and Spearman's correlation coefficients to analyze better the data and determine if a
@@ -135,10 +126,22 @@ At last, using Gnuplot and Python with various libraries such as pandas, numpy, 
 representation of geographic locations with their respective impact energy as the size of the reported
 events was made.
 
+\begin{figure*} % Two column figure (notice the starred environment)
+	\includegraphics[width=\linewidth]{fireballs.png}
+	\caption{Fireballs reported by US government sensors from April 15, 1988, to May 15, 2024. The size and color of each circle were determined by the logarithm of the impact energy (kt), and the location was determined by the altitude and longitude. All this data was obtained from the database published by NASA’s CNEOS at JPL.}
+	\label{fig:fireballs}
+\end{figure*}
+
 %------------------------------------------------
 \section{Results}
 
-Here there goes the results
+As it can be observed in figure \ref{fig:fireballs} and figure \ref{fig:gaussian}, the most frequent
+impact energy is of $-2.4$ to $-2.2$ $log(kt)$ which is equivalent to $0.09$ and $0.11$ $kt$. Only one
+data was far from the rest, it was of $440$ $kt$. That piece of information was unique among the rest,
+to the point where it's easy to tell from where the data is. It was the Chelyabinsk meteor of February
+15, 2013. It generated infrasound returns, after circling the globe, at distances up to $\sim85000$ $km$,
+and was detected at $20$ infrasonic stations of the global International Monitoring System (IMS). \supercite{rusia2013}
+It was surely a unique occurence.
 
 \begin{figure}[H] % Single column figure
 	\includegraphics[width=\linewidth]{fit.png}
@@ -154,7 +157,7 @@ Here there goes the results
 
 %------------------------------------------------
 
-\section{Discussion}
+\section{Conclusions}
 
 
 %----------------------------------------------------------------------------------------
