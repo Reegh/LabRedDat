@@ -31,6 +31,7 @@
 \setlength{\parskip}{\baselineskip}%
 \setlength{\parindent}{10pt}%
 \usepackage{indentfirst}
+\usepackage{float}
 
 \addbibresource{References.bib} % BibLaTeX bibliography file
 
@@ -103,20 +104,54 @@ in unusual cases where we seek independent confirmation. \supercite{nasaSentryEa
 %------------------------------------------------
 
 \section{Data and Methods}
+\subsection{Database and analysis}
 
-The data about fireballs, NEOs, NEAs and impact probabilities have been collectes from the database of
+The data about fireballs, NEOs, NEAs and impact probabilities have been collected from the database of
 The Center for Near-Earth Object Studies (CNEOS) and its monitoring system Sentry. The parameters
 studied include absolute visual magnitude ($H$), impact probability, impact energy ($kt$) and
 geographic location of fireball objects.
 
-To analyze these data it was used a Gaussian distribution fit, correlation coefficients such as
-Pearson's and Spearman's and a graphical representation of geographic locations with it's respective
-impact enegry as the size of the reported events.
+% To analyze these data it was used a Gaussian distribution fit, correlation coefficients such as
+% Pearson's and Spearman's and a graphical representation of geographic locations with it's respective
+% impact enegry as the size of the reported events. In addition, some information was used as logarithm
+% due to its large range.
+
+To determine if the impact energy ($kt$) of fireballs is consistent with some type of distribution it
+was decided to use the logarithm of the data and then a histogram was made with the counts of the
+impact enegry ($log(kt)$) in intervals of $0.2$. With these data some distribution fit were applied
+to confirm wich one were more accurate.
+
+At first it was used the covariance matrix to determine the linear bond between two variables, but
+due to the correlation not been linear it was discarded. Then procceeded to use Pearson's and
+Spearman's correlation coefficients to analyze more accurately the data and determine if a correlation
+exists and which type it is.
+
+At last, using python and various libraries such as pandas, numpy, plotly, a graphic representation of 
+geographic locations with it's respective impact enegry as the size of the reported events was made.
+This way it was possible to observe the frequency of similar values of impact energy ($kt$).
 
 %------------------------------------------------
-
 \section{Results}
 
+Here there goes the results
+
+\begin{figure}[H] % Two column figure (notice the starred environment)
+	\includegraphics[width=\linewidth]{fireballs.png}
+	\caption{}
+	\label{fig:fireballs}
+\end{figure}
+
+\begin{figure}[H] % Single column figure
+	\includegraphics[width=\linewidth]{fit.png}
+	\caption{}
+	\label{fig:gaussian}
+\end{figure}
+
+\begin{figure}[H] % Single column figure
+	\includegraphics[width=\linewidth]{correlation.png}
+	\caption{}
+	\label{fig:probability}
+\end{figure}
 
 %------------------------------------------------
 
