@@ -104,7 +104,6 @@ in unusual cases where we seek independent confirmation. \supercite{nasaSentryEa
 %------------------------------------------------
 
 \section{Data and Methods}
-\subsection{Database and analysis}
 
 The data about fireballs, NEOs, NEAs and impact probabilities have been collected from the database of
 The Center for Near-Earth Object Studies (CNEOS) and its monitoring system Sentry. The parameters
@@ -118,38 +117,38 @@ geographic location of fireball objects.
 
 To determine if the impact energy ($kt$) of fireballs is consistent with some type of distribution it
 was decided to use the logarithm of the data and then a histogram was made with the counts of the
-impact enegry ($log(kt)$) in intervals of $0.2$. With these data some distribution fit were applied
-to confirm wich one were more accurate.
+impact energy ($log(kt)$) in intervals of $0.2$. With these data, some distribution fit were applied
+to confirm wich one was more accurate.
 
-At first it was used the covariance matrix to determine the linear bond between two variables, but
-due to the correlation not been linear it was discarded. Then procceeded to use Pearson's and
-Spearman's correlation coefficients to analyze more accurately the data and determine if a correlation
-exists and which type it is.
+\begin{figure*} % Two column figure (notice the starred environment)
+	\includegraphics[width=\linewidth]{fireballs.png}
+	\caption{Fireballs reported by US government sensors from April 15, 1988, to May 15, 2024. The size and color of each circle were determined by the logarithm of the impact energy (kt), and the location was determined by the altitude and longitude. All this data was obtained from the database published by NASA’s CNEOS at JPL.}
+	\label{fig:fireballs}
+\end{figure*}
 
-At last, using python and various libraries such as pandas, numpy, plotly, a graphic representation of 
-geographic locations with it's respective impact enegry as the size of the reported events was made.
-This way it was possible to observe the frequency of similar values of impact energy ($kt$).
+At first, the covariance matrix was used to find the linear bond between NEOs' absolute magnitude ($H$)
+and impact probability, but due to the correlation not being linear, it was discarded. Then proceeded
+to use Pearson's and Spearman's correlation coefficients to analyze better the data and determine if a
+correlation existed and which type it was.
+
+At last, using Gnuplot and Python with various libraries such as pandas, numpy, plotly, a graphic
+representation of geographic locations with their respective impact energy as the size of the reported
+events was made.
 
 %------------------------------------------------
 \section{Results}
 
 Here there goes the results
 
-\begin{figure}[H] % Two column figure (notice the starred environment)
-	\includegraphics[width=\linewidth]{fireballs.png}
-	\caption{}
-	\label{fig:fireballs}
-\end{figure}
-
 \begin{figure}[H] % Single column figure
 	\includegraphics[width=\linewidth]{fit.png}
-	\caption{}
+	\caption{Histogram of the logarithm of fireballs' impact energy ($kt$) reported by US government sensors from April 15, 1988, to May 15, 2024. The red line indicates the fit of a Gaussian distribution that was applied to the data. The larger impact energy was of $6\:log(kt)$.}
 	\label{fig:gaussian}
 \end{figure}
 
 \begin{figure}[H] % Single column figure
 	\includegraphics[width=\linewidth]{correlation.png}
-	\caption{}
+	\caption{Plot between NEOs' impact probability and absolute magnitude ($H$) obtained from the database published by NASA’s CNEOS at JPL. The olive line indicates an exponential fit and the yellow one indicates a logarithmic fit, both were applied to the data.}
 	\label{fig:probability}
 \end{figure}
 
