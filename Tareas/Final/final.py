@@ -41,8 +41,8 @@ new_longitud = pd.Series(longitud)
 fig = px.scatter_geo(df, lon=new_longitud, lat=new_latitud, color=df['Impact Energy log(kt)'],
                      hover_name='Peak Brightness Date/Time (UT)', size=df['Impact Energy log(kt)']+3, size_max=15,
                      projection="natural earth", color_continuous_scale=["skyblue", "blue", "yellow", "red"])
-fig.update_traces(marker_sizemin=0.1)
-fig.update_layout(font_color="black", autosize=False, width=900, height=500)
+fig.update_traces(marker_sizemin=0.08)
+fig.update_layout(font_color="black", autosize=False, width=900, height=500, margin=dict(l=20, r=20, t=20, b=20))
 st.plotly_chart(fig)
 fig.write_image("fireballs.png")
 fig.write_image("fireballs.svg")
@@ -77,5 +77,5 @@ print(covariance2)
 print('Pearsons: %.3f' % peras2)
 print('Spearmans: %.3f' % spear2)
 
-# fig2 = px.histogram(df, x='Impact Energy log(kt)')
-# st.plotly_chart(fig2)
+fig2 = px.histogram(df, x='Impact Energy log(kt)')
+st.plotly_chart(fig2)

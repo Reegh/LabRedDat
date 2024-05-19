@@ -2,6 +2,10 @@
 set term png
 set output "fit.png"
 
+set ylabel "Frequency"
+set xlabel "Impact Energy log(kt)"
+set nokey
+
 f(x) = a*exp(-((x-u)/r)**2/2)
 # poisson(x) = exp(-m) * m**(x-1) / gamma(x)
 
@@ -25,4 +29,4 @@ unset table
 #fit f(x) 'fireballs.dat' using (bin($1,binwidth)):(1.0) via A,u,r
 fit f(x) 'hist.txt' via a,u,r
 # fit poisson(x) 'hist.txt' via m
-plot 'fireballs.dat' using (bin($1,binwidth)):(1.0) smooth freq with boxes, f(x)
+plot 'fireballs.dat' using (bin($1,binwidth)):(1.0) smooth freq with boxes, f(x) lt rgb "light-red"
