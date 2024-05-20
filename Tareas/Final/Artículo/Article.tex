@@ -136,12 +136,20 @@ events was made.
 \section{Results}
 
 As it can be observed in figure \ref{fig:fireballs} and figure \ref{fig:gaussian}, the most frequent
-impact energy is of $-2.4$ to $-2.2$ $log(kt)$ which is equivalent to $0.09$ and $0.11$ $kt$. Only one
-data was far from the rest, it was of $440$ $kt$. That piece of information was unique among the rest,
-to the point where it's easy to tell from where the data is. It was the Chelyabinsk meteor of February
-15, 2013. It generated infrasound returns, after circling the globe, at distances up to $\sim85000$ $km$,
-and was detected at $20$ infrasonic stations of the global International Monitoring System (IMS). \supercite{rusia2013}
-It was surely a unique occurence.
+impact energy is of $-2.4$ to $-2.2$ $log(kt)$ which is equivalent to $0.09$ and $0.11$ $kt$. Little
+data varies from $2$ to $4$ $log(kt)$, or its equivalent range $7$ to $55$ $kt$ And even more
+impressive, only one data was far from the rest, it was of $440$ $kt$. That piece of information was
+unique among the rest, to the point where it's easy to tell from where the data is. It was the
+Chelyabinsk meteor of February 15, 2013. It generated infrasound returns, after circling the globe,
+at distances up to $\sim85000$ $km$, and was detected at $20$ infrasonic stations of the global
+International Monitoring System (IMS). \supercite{rusia2013} It was surely a unique occurence.
+
+In figure \ref{fig:gaussian} it can be seen that the fit of a Gaussian distribution was the best fit,
+it has a $\chi^2$ value of $6.37E+03$, which means that the fit had a large variation with respect to
+the original data. With this it can be said that the fit wasn't precise. On other hand the Poisson
+distribution was also used, but in that case a fit was not even generated. Same case with Log-normal
+distribution. That was the reason because the Gaussian distribution was selected as the best fitting
+one, despite its high variation with the presented data.
 
 \begin{figure}[H] % Single column figure
 	\includegraphics[width=\linewidth]{fit.png}
