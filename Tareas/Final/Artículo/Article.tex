@@ -117,9 +117,9 @@ was decided to use the logarithm of the data and then a histogram was made with 
 impact energy ($log(kt)$) in intervals of $0.2$. With these data, some distribution fit were applied
 to confirm wich one was more accurate.
 
-At first, the covariance matrix was used to find the linear bond between NEOs' absolute magnitude ($H$)
+At first, the covariance matrix was used to find the linear bond between NEOs absolute magnitude ($H$)
 and impact probability, but due to the correlation not being linear, it was discarded. Then proceeded
-to use Pearson's and Spearman's correlation coefficients to analyze better the data and determine if a
+to use Pearson and Spearman correlation coefficients to analyze better the data and determine if a
 correlation existed and which type it was.
 
 At last, using Gnuplot and Python with various libraries such as pandas, numpy, plotly, a graphic
@@ -145,8 +145,8 @@ at distances up to $\sim85000$ $km$, and was detected at $20$ infrasonic station
 International Monitoring System (IMS). \supercite{rusia2013} It was surely a unique occurence.
 
 In figure \ref{fig:gaussian} it can be seen that the fit of a Gaussian distribution was the best fit,
-it has a $\chi^2$ value of $6.37E+03$, which means that the fit had a large variation with respect to
-the original data. With this it can be said that the fit wasn't precise. On other hand the Poisson
+but it has a $\chi^2$ value of $6.37E+03$, which means that the fit had a large variation with respect to
+the original data. With this, it can be said that the fit wasn't precise. On other hand the Poisson
 distribution was also used, but in that case a fit was not even generated. Same case with Log-normal
 distribution. That was the reason because the Gaussian distribution was selected as the best fitting
 one, despite its high variation with the presented data.
@@ -157,9 +157,28 @@ one, despite its high variation with the presented data.
 	\label{fig:gaussian}
 \end{figure}
 
+With figure \ref{fig:probability} it can be observed the correlation between NEOs impact probability
+and absolute magnitude ($H$). To analyze these data, Pearson and Spearman coefficients and the
+covariance matrix were used. 
+
+The diagonal of the covariance matrix had a value of $-4.28$ for non-cumulative probability and of 
+$1.72$ for cumulative probability. This results suggests that in the first case the two data had a
+negative correlation, but in the second case they had a positive correlation, which is not coherent.
+For that reason, the covariance matrix was the first method to be discarded.
+
+Then Pearson coefficient was utilized. It gave a correlation of $-0.01$ for non-cumulative
+probability and of $0.34$ for cumulative probability. As in the previous instance, this suggests that
+in the first case the two data had a negative correlation and a positive one in the second case. This
+occurs because both, the covariance matrix and the Pearson coefficient, expect that the data follows
+a Gaussian or Gaussian-like distribution, which the presented data obviously does not follow.
+
+Finally Spearman coefficient was used. It returned a correlation of $0.60$ for non-cumulative
+probability and of $0.81$ for cumulative probability. Unlike the previous ones, this test gave a
+coherent number, wich indicates that the data have a non-linear monotonic correlation. 
+
 \begin{figure}[H] % Single column figure
 	\includegraphics[width=\linewidth]{correlation.png}
-	\caption{Plot between NEOs' impact probability and absolute magnitude ($H$) obtained from the database published by NASA’s CNEOS at JPL. The olive line indicates an exponential fit and the yellow one indicates a logarithmic fit, both were applied to the data.}
+	\caption{Plot between NEOs impact probability and absolute magnitude ($H$) obtained from the database published by NASA’s CNEOS at JPL. The olive line indicates an exponential fit and the yellow one indicates a logarithmic fit, both were applied to the data.}
 	\label{fig:probability}
 \end{figure}
 

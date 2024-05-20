@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber Article"] 1716161488 "Article.bcf" "Article.bbl" "Article" 1716165642
-  "Article.bcf" 1716165642 107283 a93ad3414a24bd60c472a70ebaa0fe73 "pdflatex"
+["biber Article"] 1716161488 "Article.bcf" "Article.bbl" "Article" 1716171743
+  "Article.bcf" 1716171743 107283 a93ad3414a24bd60c472a70ebaa0fe73 "pdflatex"
   "References.bib" 1716161466 2973 a2ec06336cb280ea85c0afe65bf48127 ""
   (generated)
   "Article.bbl"
   "Article.blg"
-["pdflatex"] 1716165640 "/home/reegh/Documentos/Lab/LabRedDat/Tareas/Final/Artículo/Article.tex" "Article.pdf" "Article" 1716165642
+["pdflatex"] 1716171740 "/home/reegh/Documentos/Lab/LabRedDat/Tareas/Final/Artículo/Article.tex" "Article.pdf" "Article" 1716171743
   "/etc/texmf/web2c/texmf.cnf" 1711581365 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/reegh/Documentos/Lab/LabRedDat/Tareas/Final/Artículo/Article.tex" 1716165639 10444 9b94202ea44aa7f898031156d92f8062 ""
+  "/home/reegh/Documentos/Lab/LabRedDat/Tareas/Final/Artículo/Article.tex" 1716171740 11819 3ac2ac55ad2325d141402c237fa71789 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -144,11 +144,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1711597025 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711597051 2800983 d170210d76ca52722e92ad3f0d4849a2 ""
-  "Article.aux" 1716165642 4340 263f3b2136cf003f0c2da0ee03d381ee "pdflatex"
+  "Article.aux" 1716171743 4338 061415b89c1fea4b8bc3961c64ae12e8 "pdflatex"
   "Article.bbl" 1716161490 10759 434059c1459c2437e4aabe370ab54c50 "biber Article"
-  "Article.out" 1716165642 412 bcaabd87e0699b26fe255a5ec73c6b84 "pdflatex"
-  "Article.run.xml" 1716165642 2451 ee8912859c11db959affe3af5ce7bff0 "pdflatex"
-  "Article.tex" 1716165639 10444 9b94202ea44aa7f898031156d92f8062 ""
+  "Article.out" 1716171743 412 bcaabd87e0699b26fe255a5ec73c6b84 "pdflatex"
+  "Article.run.xml" 1716171743 2451 ee8912859c11db959affe3af5ce7bff0 "pdflatex"
+  "Article.tex" 1716171740 11819 3ac2ac55ad2325d141402c237fa71789 ""
   "LTJournalArticle.cls" 1716101363 9817 844c0947ba7b71aac4a3e804b96ff99e ""
   "correlation.png" 1716088843 6191 70884c22660da4e983f74bb660a34c76 ""
   "fireballs.png" 1716088943 205257 0a559fc46f608e756532943fd56205c9 ""

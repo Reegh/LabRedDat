@@ -963,11 +963,6 @@ INPUT ./fit.png
 INPUT fit.png
 INPUT ./fit.png
 INPUT ./fit.png
-INPUT ./correlation.png
-INPUT ./correlation.png
-INPUT correlation.png
-INPUT ./correlation.png
-INPUT ./correlation.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplri9e.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplb9e.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
@@ -978,6 +973,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr9t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./correlation.png
+INPUT ./correlation.png
+INPUT correlation.png
+INPUT ./correlation.png
+INPUT ./correlation.png
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
