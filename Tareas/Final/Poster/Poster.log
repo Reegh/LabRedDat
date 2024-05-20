@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  20 MAY 2024 02:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  20 MAY 2024 02:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -338,63 +338,63 @@ Overfull \hbox (12.82721pt too wide) in paragraph at lines 52--63
 [][] [] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <14.88> on input line 109.
+LaTeX Font Info:    Calculating math sizes for size <14.88> on input line 120.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.41595> not available
-(Font)              size <10> substituted on input line 109.
+(Font)              size <10> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.44> not available
-(Font)              size <7> substituted on input line 109.
+(Font)              size <7> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <14.88> not available
-(Font)              size <14.4> substituted on input line 109.
+(Font)              size <14.4> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.41595> not available
-(Font)              size <10> substituted on input line 109.
+(Font)              size <10> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.44> not available
-(Font)              size <7> substituted on input line 109.
+(Font)              size <7> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <14.88> not available
-(Font)              size <14.4> substituted on input line 109.
+(Font)              size <14.4> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.41595> not available
-(Font)              size <10> substituted on input line 109.
+(Font)              size <10> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.44> not available
-(Font)              size <7> substituted on input line 109.
+(Font)              size <7> substituted on input line 120.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 109.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 109.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <fireballs.png, id=3, 903.375pt x 501.875pt>
 File: fireballs.png Graphic file (type png)
 <use fireballs.png>
-Package pdftex.def Info: fireballs.png  used on input line 166.
+Package pdftex.def Info: fireballs.png  used on input line 177.
 (pdftex.def)             Requested size: 610.51532pt x 339.19516pt.
 <fit.png, id=4, 481.8pt x 361.35pt>
 File: fit.png Graphic file (type png)
 <use fit.png>
-Package pdftex.def Info: fit.png  used on input line 188.
+Package pdftex.def Info: fit.png  used on input line 199.
 (pdftex.def)             Requested size: 381.57062pt x 286.18567pt.
 <correlation.png, id=5, 481.8pt x 361.35pt>
 File: correlation.png Graphic file (type png)
 <use correlation.png>
-Package pdftex.def Info: correlation.png  used on input line 213.
+Package pdftex.def Info: correlation.png  used on input line 224.
 (pdftex.def)             Requested size: 381.57062pt x 286.18567pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 241.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 252.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) (./Poster.bbl
@@ -428,13 +428,13 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  5065 strings out of 478287
  82878 string characters out of 5849289
- 430079 words of memory out of 5000000
+ 429999 words of memory out of 5000000
  23199 multiletter control sequences out of 15000+600000
  488567 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,63p,601b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,63p,601b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Poster.pdf (1 page, 305462 bytes).
+Output written on Poster.pdf (1 page, 305447 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
