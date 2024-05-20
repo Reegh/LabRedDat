@@ -136,16 +136,16 @@ events was made.
 \section{Results}
 
 As it can be observed in figure \ref{fig:fireballs} and figure \ref{fig:gaussian}, the most frequent
-impact energy is of $-2.4$ to $-2.2$ $log(kt)$ which is equivalent to $0.09$ and $0.11$ $kt$. Little
+impact energy is $-2.4$ to $-2.2$ $log(kt)$ which is equivalent to $0.09$ and $0.11$ $kt$. Little
 data varies from $2$ to $4$ $log(kt)$, or its equivalent range $7$ to $55$ $kt$ And even more
-impressive, only one data was far from the rest, it was of $440$ $kt$. That piece of information was
-unique among the rest, to the point where it's easy to tell from where the data is. It was the
-Chelyabinsk meteor of February 15, 2013. It generated infrasound returns, after circling the globe,
-at distances up to $\sim85000$ $km$, and was detected at $20$ infrasonic stations of the global
+impressive, only one data was far from the rest, it had an impact energy of $440$ $kt$. That piece of
+information was unique among the rest, to the point where it's easy to tell from where the data is. It
+was the Chelyabinsk meteor of February 15, 2013. It generated infrasound returns, after circling the
+globe, at distances up to $\sim85000$ $km$, and was detected at $20$ infrasonic stations of the global
 International Monitoring System (IMS). \supercite{rusia2013} It was surely a unique occurence.
 
 In figure \ref{fig:gaussian} it can be seen that the fit of a Gaussian distribution was the best fit,
-but it has a $\chi^2$ value of $6.37E+03$, which means that the fit had a large variation with respect to
+but it had a $\chi^2$ value of $6.37E+03$, which means that the fit had a large variation with respect to
 the original data. With this, it can be said that the fit wasn't precise. On other hand the Poisson
 distribution was also used, but in that case a fit was not even generated. Same case with Log-normal
 distribution. That was the reason because the Gaussian distribution was selected as the best fitting
@@ -153,34 +153,47 @@ one, despite its high variation with the presented data.
 
 \begin{figure}[H] % Single column figure
 	\includegraphics[width=\linewidth]{fit.png}
-	\caption{Histogram of the logarithm of fireballs' impact energy ($kt$) reported by US government sensors from April 15, 1988, to May 15, 2024. The red line indicates the fit of a Gaussian distribution that was applied to the data. The larger impact energy was of $6\:log(kt)$.}
+	\caption{Histogram of logarithmic fireballs impact energy ($kt$) reported by US government sensors from April 15, 1988, to May 15, 2024. The red line indicates the fit of a Gaussian distribution that was applied to the data. The larger impact energy was of $6\:log(kt)$.}
 	\label{fig:gaussian}
 \end{figure}
 
-With figure \ref{fig:probability} it can be observed the correlation between NEOs impact probability
+With figure \ref{fig:probability}, it can be observed the correlation between NEOs impact probability
 and absolute magnitude ($H$). To analyze these data, Pearson and Spearman coefficients and the
 covariance matrix were used. 
 
-The diagonal of the covariance matrix had a value of $-4.28$ for non-cumulative probability and of 
-$1.72$ for cumulative probability. This results suggests that in the first case the two data had a
-negative correlation, but in the second case they had a positive correlation, which is not coherent.
-For that reason, the covariance matrix was the first method to be discarded.
+The diagonal of the covariance matrix had a value $-4.28$ for non-cumulative probability and $1.72$
+for cumulative probability. This results suggests that in the first case the two data had a negative
+correlation, but in the second case they had a positive correlation, which is not coherent. For that
+reason, the covariance matrix was the first method to be discarded.
 
 Then Pearson coefficient was utilized. It gave a correlation of $-0.01$ for non-cumulative
-probability and of $0.34$ for cumulative probability. As in the previous instance, this suggests that
+probability and $0.34$ for cumulative probability. As in the previous instance, this suggests that
 in the first case the two data had a negative correlation and a positive one in the second case. This
 occurs because both, the covariance matrix and the Pearson coefficient, expect that the data follows
 a Gaussian or Gaussian-like distribution, which the presented data obviously does not follow.
 
 Finally Spearman coefficient was used. It returned a correlation of $0.60$ for non-cumulative
-probability and of $0.81$ for cumulative probability. Unlike the previous ones, this test gave a
-coherent number, wich indicates that the data have a non-linear monotonic correlation. 
+probability and $0.81$ for cumulative probability. Unlike the previous ones, this test gave a
+coherent number, wich indicates that the data have a non-linear monotonic correlation.
 
 \begin{figure}[H] % Single column figure
 	\includegraphics[width=\linewidth]{correlation.png}
 	\caption{Plot between NEOs impact probability and absolute magnitude ($H$) obtained from the database published by NASA’s CNEOS at JPL. The olive line indicates an exponential fit and the yellow one indicates a logarithmic fit, both were applied to the data.}
 	\label{fig:probability}
 \end{figure}
+
+The exponential fit, corresponding to the olive line in figure \ref{fig:probability}, had a $\chi^2$
+value of $94.07$, and the logarithmic fit, corresponding to the yellow line in figure \ref{fig:probability},
+had a $\chi^2$ value of $89.15$. In comparison, the logarithmic fit presented less variations with the
+sample data, but it showed that none of them were able to fit correctly the correlation. Due to all of
+the above, it can be said that there exists a non-linear monotonic correlation between NEOs impact
+probability and absolute magnitude ($H$), but it isn't enough to fit it into a function either in
+logarithmic or exponential form.
+
+Also, it can be noted that there exists an inversal correlation between absolute magnitude ($H$) and
+diameter of astronomical objects. So it can be assumed that the impact probability has a small inverse
+correlation with the diameter of the NEO. But the correlation isn't strong enough to extrapolate it
+correctly.
 
 %------------------------------------------------
 
