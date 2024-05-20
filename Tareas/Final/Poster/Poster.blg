@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Poster.aux
+The style file: plain.bst
+Database file #1: bibliography.bib
+Warning--empty year in nasaFireballs
+Warning--empty year in nasaBasics
+Warning--empty year in nasaSentryEarth
+Warning--empty journal in rukmini2016statistical
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            529 strings with 5127 characters,
+and the built_in function-call counts, 1702 in all, are:
+= -- 152
+> -- 110
+< -- 0
++ -- 45
+- -- 38
+* -- 115
+:= -- 324
+add.period$ -- 21
+call.type$ -- 6
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 10
+duplicate$ -- 60
+empty$ -- 104
+format.name$ -- 38
+if$ -- 322
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 36
+num.names$ -- 12
+pop$ -- 40
+preamble$ -- 1
+purify$ -- 31
+quote$ -- 0
+skip$ -- 40
+stack$ -- 0
+substring$ -- 31
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 4
+while$ -- 12
+width$ -- 7
+write$ -- 65
+(There were 4 warnings)

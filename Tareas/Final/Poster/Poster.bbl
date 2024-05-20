@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{nasaFireballs}
+CNEOS.
+\newblock {F}ireballs --- cneos.jpl.nasa.gov.
+\newblock {\em https://cneos.jpl.nasa.gov/fireballs/intro.html}.
+\newblock [Accessed 19-05-2024].
+
+\bibitem{nasaBasics}
+CNEOS.
+\newblock {N}{E}{O} {B}asics --- cneos.jpl.nasa.gov.
+\newblock {\em https://cneos.jpl.nasa.gov/about/basics.html}.
+\newblock [Accessed 19-05-2024].
+
+\bibitem{nasaSentryEarth}
+CNEOS.
+\newblock {S}entry: {E}arth {I}mpact {M}onitoring --- cneos.jpl.nasa.gov.
+\newblock {\em https://cneos.jpl.nasa.gov/sentry/}.
+\newblock [Accessed 19-05-2024].
+
+\bibitem{key}
+Alexis Le~Pichon, Lars Ceranna, Christoph Pilger, Pierrick Mialle, David Brown,
+  Pascal Herry, and Nicolas Brachet.
+\newblock The 2013 russian fireball largest ever detected by ctbto infrasound
+  sensors.
+\newblock {\em Geophysical Research Letters}, 40(14), 2013.
+
+\bibitem{rukmini2016statistical}
+J.~Rukmini, G.~Raghavendra, S.~A. Ahmed, D.~Shanti Priya, and Syeda~Azeem
+  Unnisa.
+\newblock Statistical survey and analysis of photometric and spectroscopic data
+  on neas.
+\newblock 2016.
+
+\bibitem{zhou2024martians}
+Yufan~Fane Zhou, Hailiang Li, Zhiyuan Li, and Liyong Zhou.
+\newblock Martians (mars2020, tianwen and so on) would see more potentially
+  hazardous asteroids than earthlings.
+\newblock {\em https://cneos.jpl.nasa.gov/fireballs/intro.html}, 2024.
+
+\end{thebibliography}
